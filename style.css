@@ -1,0 +1,151 @@
+/* COLORS AND FONTS */
+
+body {
+	/* Couleur de fond */
+	background: #bfcba8;
+	/* Couleur du texte */
+	color: grey;
+	/* La police du texte */
+	font-family: 'Oxygen', sans-serif;
+	/* La taille de la police */
+	font-size: 17px;
+	/* Épaisseur de la police */
+	font-weight: lighter;
+}
+
+h1 {
+	/* Couleur du titre */
+	color: #bfcba8;
+	/* La police du texte */
+	font-family: 'Train One', cursive;
+	/* La taille de la police */
+	font-size: 32px;
+	/* Espacement entre les lettres */
+	letter-spacing: 3px;
+	/* Épaisseur de la police */
+	font-weight: 600;
+	/* Marge du haut */
+	margin-top: -10px;
+}
+
+h2 {
+	/* Couleur des sous-titres */
+	color: #798777;
+	/* La police du texte */
+	font-family: 'Oxygen', sans-serif;
+	/* La taille de la police */
+	font-size: 24px;
+	/* Épaisseur de la police */
+	font-weight: 700;
+	/* Marge du haut */
+	margin-top: -10px;
+}
+
+h3 {
+	/* Couleur des sous-titres */
+	color: #bfcba8;
+	/* La police du texte */
+	font-family: 'Train One', cursive;
+	/* La taille de la police */
+	font-size: 30px;
+	/* Épaisseur de la police */
+	font-weight: 700;
+	/* Marge du haut */
+	margin-top: -5px;
+}
+
+a {
+	text-decoration: none;
+	/* La police du texte */
+	font-family: 'Oxygen', sans-serif;
+	/* Couleur des liens (Bouton + Logo RS) */
+	color: #56776c;
+	/* Épaisseur de la police */
+	font-weight: 600;
+	/* La taille de la police */
+	font-size: 16px;
+}
+
+a:hover {
+	/* Surlignage des liens (Bouton + Logo RS) */
+	color: #798777;
+}
+
+
+
+/* Photo de profil */
+.img-circle {
+	border-radius: 50%;
+}
+/* Photo de profil avec bordure */
+.img-bordered {
+  border: 0px solid black;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+.btn-blue {
+	background-color: #bfcba8;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size:50px;
+	color: #bfcba8;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
